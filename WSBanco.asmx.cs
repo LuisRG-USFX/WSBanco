@@ -37,7 +37,7 @@ namespace WSBanco
                 while (myReader.Read())
                 {
                     myReader.Read();
-                    cotizacion = Convert.ToDouble(myReader["cotizacion"]);
+                    cotizacion = Convert.ToDouble(myReader["valor"]);
 
                 }
             }
